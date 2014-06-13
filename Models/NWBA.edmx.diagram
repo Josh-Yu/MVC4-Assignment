@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c12b1c1278d4492aa9746f79cb7668e5" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="NWBAModel.Account" Width="1.5" PointX="4" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWBAModel.BillPay" Width="1.5" PointX="6.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWBAModel.Customer" Width="1.5" PointX="0.875" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWBAModel.Login" Width="1.5" PointX="3.125" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWBAModel.Payee" Width="1.5" PointX="9.5" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWBAModel.Transaction" Width="1.5" PointX="5" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="NWBAModel.FK_Account_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="NWBAModel.FK_BillPay_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="NWBAModel.FK_Transaction_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="NWBAModel.FK_BillPay_Payee" ManuallyRouted="false" />
+        <AssociationConnector Association="NWBAModel.FK_Login_Customer" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="NWBAModel.webpages_Membership" Width="1.5" PointX="11.223844281967658" PointY="25.37932414998269" />
+        <EntityTypeShape EntityType="NWBAModel.webpages_OAuthMembership" Width="1.5" PointX="2.3813507214101737" PointY="23.744515534371377" />
+        <EntityTypeShape EntityType="NWBAModel.webpages_Roles" Width="1.5" PointX="10.387796982372084" PointY="8.8928225826904281" />
+        <AssociationConnector Association="NWBAModel.webpages_UsersInRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
